@@ -1,0 +1,11 @@
+struct CThostFtdcUserPasswordUpdateField
+{
+	///经纪公司代码
+	TThostFtdcBrokerIDType	BrokerID;
+	///用户代码
+	TThostFtdcUserIDType	UserID;
+	///原来的口令
+	TThostFtdcPasswordType	OldPassword;
+	///新的口令
+	TThostFtdcPasswordType	NewPassword;
+};

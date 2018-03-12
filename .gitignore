@@ -1,0 +1,8 @@
+*.project
+.settings
+target
+log
+.classpath
+.checkstyle
+.eclipse-pmd
+lib
